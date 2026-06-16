@@ -1,0 +1,84 @@
+@import "tailwindcss";
+@font-face {
+    font-family: secondary-font;
+    src: url("./font/aviny-700.woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: tanha;
+    src: url("./font/Tanha.woff");
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: primary-font;
+    src: url("./font/iran-yekan-400.woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: primary-font;
+    src: url("./font/iran-yekan-500.woff2");
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: primary-font;
+    src: url("./font/iran-yekan-700.woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+:root{
+    --bg-color:oklch(0.74 0.13 213.33);
+}
+body {
+    font-family: primary-font;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: secondary-font;
+}
+.containers {
+    max-width: 74rem;
+}
+.img1 {
+    position: relative;
+    background: url("../img/bg.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    width: 100%;
+    min-height: 35rem;
+}
+.img {
+    position: absolute;
+    background: radial-gradient(oklch(0.3 0 0 / 0.2), #00000099);
+	background-position: center center;
+    background-size: cover; 
+    margin: auto;
+    width: 100%;
+    top: 0;
+    right: 0;
+    min-height: 35rem;
+}
+li {
+    text-decoration: none;
+    color: white;
+}
+.blue {
+    color: var(--bg-color);
+}
+.bg-b {
+    background: #0e0f10;
+}
+.card1{
+    background: black;
+    color: white;
+    border: none;
+}
+.car {
+    height: 45px;
+    margin-top: 20px;
+}
+.mr-2f {
+    margin-right: 10rem;
+}
